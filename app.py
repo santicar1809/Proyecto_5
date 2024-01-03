@@ -44,8 +44,8 @@ print('Duplicados:\n', df.duplicated().sum())
 st.header('Análisis exploratorio de datos')
 # %%
 build_histogram = st.checkbox('Construir un histograma')
-build_scatterplot = st.checkbox('Construir un histograma')
-build_barplot = st.checkbox('Construir un histograma')
+build_scatterplot = st.checkbox('Construir un diagrama de dispersión')
+build_barplot = st.checkbox('Construir un diagrama de barras')
 # %%
 if build_histogram: # si la casilla de verificación está seleccionada
     st.write('Construir un histograma')
