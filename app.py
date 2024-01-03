@@ -8,15 +8,10 @@
 import pandas as pd
 import plotly.express as px
 import streamlit as st
-import numpy as np
-import os
+
 
 # %%
-Rutabase = 'C:/Users/Santiago/Documents/Bootcamp/SPRINT_5/Proyecto_5'
-Rutarel = 'vehicles_us.csv'
-Rutasol = os.path.join(Rutabase, Rutarel)
-Rutasol = os.path.abspath(Rutasol)
-df=pd.read_csv(Rutasol)
+df=pd.read_csv('vehicles_us.csv')
 print(df.head())
 print(df.info())
 
