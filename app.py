@@ -11,7 +11,7 @@ import streamlit as st
 
 
 # %%
-df=pd.read_csv('vehicles_us.csv')
+df=pd.read_csv('notebook/vehicles_us.csv')
 print(df.head())
 print(df.info())
 
